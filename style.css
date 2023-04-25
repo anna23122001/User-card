@@ -1,0 +1,80 @@
+
+*{
+    box-sizing: border-box;
+}
+:root{
+    font-size: 20px;
+}
+.card {
+    border: 2px solid MidnightBlue ;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+  }
+  img{
+    border-radius: 50%;
+ width: 250px;
+ display: block;
+ margin-bottom: 0px;
+ border: 10px solid #BBEBE1;
+  }
+  .header-icon{
+    display: flex;
+    justify-content: center;
+  
+  }
+  .card-header {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+  .card-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+justify-content: center;
+  }
+.card-h1{
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 300;
+}
+  .card-description {
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 300;
+    width: 400px;
+  }
+  button[type="submit"]{
+    background-color: lightskyblue;
+    font-size: 25px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    height: 60px;
+    width: 170px;
+    border-radius: 10px;
+    border: none;
+}
+.card-footer {
+    background-color: darkblue;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:space-around;
+    margin-top: 15px;
+    padding: 20px;
+    text-align: center;
+  }
+  .foot-numbers{
+    color: white;
+
+  }
+  .foot-info{
+    color: brown;
+    font-weight: 600; 
+  }
